@@ -4,4 +4,34 @@
     <string name="title_home">Home</string>
     <string name="title_faculties">Faculties</string>
     <string name="title_more">More</string>
+
+    <!--    about section-->
+    <string name="info_about_bu">About BU</string>
+    <string name="info_misson_vision">Mission &amp; Vision</string>
+
+    <!--    Academic section-->
+    <string name="info_offered_degree">Offered Degree</string>
+    <string name="info_rules_regulation">Rules &amp; Regulation</string>
+    <string name="info_academic_policies">Academic Policies</string>
+
+    <!--    Admission section-->
+    <string name="info_admission">Admission</string>
+
+    <!--    administration section-->
+    <string name="info_message_from_founder">Message Form Founder</string>
+    <string name="info_board_of_trust">Board Of Trust</string>
+    <string name="info_vc_office">VC Office</string>
+
+    <!--    Office Info section-->
+    <string name="info_registrar_office">Registrar</string>
+    <string name="info_controller_office">Controller</string>
+    <string name="info_office_of_the_account">Account</string>
+    <string name="info_library_office">Library</string>
+    <string name="info_it_office">IT</string>
+
+    <!--    Collaboration section-->
+    <string name="info_stamford_university">Stamford</string>
+
+
+
 </resources>

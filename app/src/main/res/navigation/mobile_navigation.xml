@@ -12,13 +12,13 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_faculties"
         android:name="bu.edu.bd.android.DashBoard.ui.dashboard.FacultiesFragment"
         android:label="@string/title_faculties"
         tools:layout="@layout/fragment_faculties" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_more"
         android:name="bu.edu.bd.android.DashBoard.ui.notifications.MoreFragment"
         android:label="@string/title_more"
         tools:layout="@layout/fragment_more" />

@@ -8,15 +8,25 @@ import android.view.View;
 import android.widget.Button;
 
 import bu.edu.bd.android.DashBoard.DashBoard;
+import bu.edu.bd.android.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
+    ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        Button button= findViewById(R.id.button);
-        button.setOnClickListener(view -> startActivity(new Intent(getApplicationContext(), DashBoard.class)));
+        binding.buTitleName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),DashBoard.class));
+            }
+        });
+
+
+
     }
 }
