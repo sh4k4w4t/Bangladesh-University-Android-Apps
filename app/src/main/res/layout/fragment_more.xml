@@ -25,7 +25,7 @@
                 android:text="Library"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:background="#E1C6C6"
+                android:background="@color/color_code_main_3"
                 android:padding="5dp"/>
         </com.google.android.material.card.MaterialCardView>
 
@@ -43,7 +43,7 @@
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:padding="5dp"
-                android:background="#E1C6C6"/>
+                android:background="@color/color_code_main_3"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -60,7 +60,7 @@
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:padding="5dp"
-                android:background="#E1C6C6"/>
+                android:background="@color/color_code_main_3"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -77,7 +77,7 @@
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:padding="5dp"
-                android:background="#E1C6C6"/>
+                android:background="@color/color_code_main_3"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -94,7 +94,7 @@
                 android:padding="5dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:background="#E1C6C6"/>
+                android:background="@color/color_code_main_3"/>
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
@@ -111,7 +111,7 @@
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:padding="5dp"
-                android:background="#E1C6C6"/>
+                android:background="@color/color_code_main_3"/>
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

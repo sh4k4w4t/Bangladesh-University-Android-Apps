@@ -97,41 +97,41 @@ public class HomeFragment extends Fragment {
 
     private void aboutSectionList() {
         arrayList = new ArrayList<>();
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_about_bu), R.drawable.nav_icon_home));
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_misson_vision), R.drawable.nav_icon_home));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_about_bu), R.drawable.about));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_misson_vision), R.drawable.mission));
 
     }
     private void academicSectionList() {
         arrayList = new ArrayList<>();
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_offered_degree), R.drawable.nav_icon_home));
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_rules_regulation), R.drawable.nav_icon_home));
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_academic_policies), R.drawable.nav_icon_home));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_offered_degree), R.drawable.offered_degree));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_rules_regulation), R.drawable.rules_regualtion));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_academic_policies), R.drawable.policies));
 
     }
     private void administrationSectionList() {
         arrayList = new ArrayList<>();
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_message_from_founder), R.drawable.nav_icon_home));
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_board_of_trust), R.drawable.nav_icon_home));
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_vc_office), R.drawable.nav_icon_home));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_message_from_founder), R.drawable.message));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_board_of_trust), R.drawable.board_of_trust));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_vc_office), R.drawable.vc_ofice));
 
     }
     private void admissionSectionList() {
         arrayList = new ArrayList<>();
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_admission), R.drawable.nav_icon_home));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_admission), R.drawable.addmision));
 
     }
     private void officeSectionList() {
         arrayList = new ArrayList<>();
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_registrar_office), R.drawable.nav_icon_home));
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_controller_office), R.drawable.nav_icon_home));
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_office_of_the_account), R.drawable.nav_icon_home));
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_library_office), R.drawable.nav_icon_home));
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_it_office), R.drawable.nav_icon_home));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_registrar_office), R.drawable.registrar));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_controller_office), R.drawable.coltroller));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_office_of_the_account), R.drawable.account));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_library_office), R.drawable.library));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_it_office), R.drawable.it));
 
     }
     private void collaborationSectionList() {
         arrayList = new ArrayList<>();
-        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_stamford_university), R.drawable.nav_icon_home));
+        arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_stamford_university), R.drawable.stamford));
 
     }
 
