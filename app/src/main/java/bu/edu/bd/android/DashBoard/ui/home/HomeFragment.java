@@ -29,8 +29,6 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         view= binding.getRoot();
 
-
-
         aboutSectionList();
         recyclerView= binding.aboutSectionRecycleView;
         recyclerView.setHasFixedSize(true);
@@ -40,8 +38,6 @@ public class HomeFragment extends Fragment {
         adapter = new ImageTitleHomeItemAdapter(requireContext().getApplicationContext(), arrayList);
         recyclerView.setAdapter(adapter);
 
-
-
         academicSectionList();
         recyclerView= binding.academicInfoRecycleView;
         recyclerView.setHasFixedSize(true);
@@ -50,8 +46,6 @@ public class HomeFragment extends Fragment {
         recyclerView.setLayoutManager(gridLayoutManager);
         adapter = new ImageTitleHomeItemAdapter(requireContext().getApplicationContext(), arrayList);
         recyclerView.setAdapter(adapter);
-
-
 
         admissionSectionList();
         recyclerView= binding.admissionSectionRecycleView;
@@ -71,7 +65,6 @@ public class HomeFragment extends Fragment {
         adapter = new ImageTitleHomeItemAdapter(requireContext().getApplicationContext(), arrayList);
         recyclerView.setAdapter(adapter);
 
-
         officeSectionList();
         recyclerView= binding.officeSectionRecycleView;
         recyclerView.setHasFixedSize(true);
@@ -81,16 +74,13 @@ public class HomeFragment extends Fragment {
         adapter = new ImageTitleHomeItemAdapter(requireContext().getApplicationContext(), arrayList);
         recyclerView.setAdapter(adapter);
 
-
         collaborationSectionList();
-        recyclerView= binding.collaborationSectionRecycleView;
-        recyclerView.setHasFixedSize(true);
+        binding.collaborationSectionRecycleView.setHasFixedSize(true);
         gridLayoutManager = new GridLayoutManager(requireContext().getApplicationContext(), 4);
         gridLayoutManager.setOrientation(RecyclerView.VERTICAL);
-        recyclerView.setLayoutManager(gridLayoutManager);
+        binding.collaborationSectionRecycleView.setLayoutManager(gridLayoutManager);
         adapter = new ImageTitleHomeItemAdapter(requireContext().getApplicationContext(), arrayList);
-        recyclerView.setAdapter(adapter);
-
+        binding.collaborationSectionRecycleView.setAdapter(adapter);
 
         return view;
     }
@@ -99,26 +89,22 @@ public class HomeFragment extends Fragment {
         arrayList = new ArrayList<>();
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_about_bu), R.drawable.about));
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_misson_vision), R.drawable.mission));
-
     }
     private void academicSectionList() {
         arrayList = new ArrayList<>();
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_offered_degree), R.drawable.offered_degree));
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_rules_regulation), R.drawable.rules_regualtion));
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_academic_policies), R.drawable.policies));
-
     }
     private void administrationSectionList() {
         arrayList = new ArrayList<>();
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_message_from_founder), R.drawable.message));
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_board_of_trust), R.drawable.board_of_trust));
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_vc_office), R.drawable.vc_ofice));
-
     }
     private void admissionSectionList() {
         arrayList = new ArrayList<>();
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_admission), R.drawable.addmision));
-
     }
     private void officeSectionList() {
         arrayList = new ArrayList<>();
@@ -127,14 +113,11 @@ public class HomeFragment extends Fragment {
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_office_of_the_account), R.drawable.account));
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_library_office), R.drawable.library));
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_it_office), R.drawable.it));
-
     }
     private void collaborationSectionList() {
         arrayList = new ArrayList<>();
         arrayList.add(new HomeItemGridPojo(getResources().getString(R.string.info_stamford_university), R.drawable.stamford));
-
     }
-
 
 
     @Override
