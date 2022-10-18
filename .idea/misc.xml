@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.218" />
+        <entry key="app/src/main/res/drawable/custom_layout_for_title_shape.xml" value="0.2005" />
         <entry key="app/src/main/res/drawable/ic_baseline_more_24.xml" value="0.1445" />
         <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.218" />
         <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.218" />
@@ -17,9 +18,9 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33958333333333335" />
         <entry key="app/src/main/res/layout/custom_action_bar.xml" value="0.3333333333333333" />
         <entry key="app/src/main/res/layout/custom_layout_for_home_item.xml" value="0.3333333333333333" />
-        <entry key="app/src/main/res/layout/fragment_faculties.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_faculties.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_more.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_more.xml" value="0.33" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3343589743589744" />
       </map>
     </option>
