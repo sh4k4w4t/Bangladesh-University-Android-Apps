@@ -21,7 +21,7 @@
         <entry key="app/src/main/res/layout/custom_layout_for_home_item.xml" value="0.3333333333333333" />
         <entry key="app/src/main/res/layout/fragment_faculties.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_more.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_more.xml" value="0.25" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.3343589743589744" />
       </map>
     </option>

@@ -1,4 +1,4 @@
-package bu.edu.bd.android.DashBoard.ui.home;
+package bu.edu.bd.android.DashBoard.ui.Home;
 
 public class HomeItemGridPojo {
     private final String title;

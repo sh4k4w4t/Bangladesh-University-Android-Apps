@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="bu.edu.bd.android.DashBoard.ui.home.HomeFragment"
+        android:name="bu.edu.bd.android.DashBoard.ui.Home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_faculties"
-        android:name="bu.edu.bd.android.DashBoard.ui.dashboard.FacultiesFragment"
+        android:name="bu.edu.bd.android.DashBoard.ui.Feculties.FacultiesFragment"
         android:label="@string/title_faculties"
         tools:layout="@layout/fragment_faculties" />
 
     <fragment
         android:id="@+id/navigation_more"
-        android:name="bu.edu.bd.android.DashBoard.ui.notifications.MoreFragment"
+        android:name="bu.edu.bd.android.DashBoard.ui.More.MoreFragment"
         android:label="@string/title_more"
         tools:layout="@layout/fragment_more" />
 </navigation>

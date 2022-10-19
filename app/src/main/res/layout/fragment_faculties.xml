@@ -3,12 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DashBoard.ui.dashboard.FacultiesFragment">
+    tools:context=".DashBoard.ui.Feculties.FacultiesFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -19,42 +20,48 @@
             android:textColor="@color/white"
             android:background="@color/color_code_main_2"/>
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Computer Science and Engineering"
-            android:textSize="20sp"
-            android:gravity="center_horizontal"
-            android:layout_margin="10dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Mathematics"
-            android:textSize="20sp"
-            android:gravity="center_horizontal"
-            android:layout_margin="10dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Pharmacy"
-            android:textSize="20sp"
-            android:gravity="center_horizontal"
-            android:layout_margin="10dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Electrical and Electronics Engineering (EEE)"
-            android:textSize="20sp"
-            android:gravity="center_horizontal"
-            android:layout_margin="10dp"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Architecture"
-            android:textSize="20sp"
-            android:gravity="center_horizontal"
-            android:layout_margin="10dp"/>
+            android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Science and Engineering"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mathematics"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pharmacy"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electrical and Electronics Engineering (EEE)"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Architecture"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -66,29 +73,35 @@
             android:background="@color/color_code_main_2"
             android:padding="5dp"/>
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="English"
-            android:textSize="20sp"
-            android:gravity="center_horizontal"
-            android:layout_margin="10dp"/>
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Sociology"
-            android:textSize="20sp"
-            android:gravity="center_horizontal"
-            android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sociology"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Law"
-            android:textSize="20sp"
-            android:gravity="center_horizontal"
-            android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Law"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -99,22 +112,27 @@
             android:background="@color/color_code_main_2"
             android:padding="5dp" />
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Business Administration"
-            android:textSize="20sp"
-            android:gravity="center_horizontal"
-            android:layout_margin="10dp"/>
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Business Administration"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Economics"
-            android:textSize="20sp"
-            android:gravity="center_horizontal"
-            android:layout_margin="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Economics"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
     </LinearLayout>
-
 
 </androidx.core.widget.NestedScrollView>
