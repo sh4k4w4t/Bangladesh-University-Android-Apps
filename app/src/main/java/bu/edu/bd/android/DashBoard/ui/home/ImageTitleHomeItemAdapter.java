@@ -11,6 +11,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
+
+import bu.edu.bd.android.AboutBU.AboutBUActivity;
 import bu.edu.bd.android.R;
 
 public class ImageTitleHomeItemAdapter extends RecyclerView.Adapter<ImageTitleHomeItemAdapter.AdapterHolder>{
@@ -35,8 +37,8 @@ public class ImageTitleHomeItemAdapter extends RecyclerView.Adapter<ImageTitleHo
         holder.image.setImageResource(arrayList.get(position).getImage());
 
         holder.itemView.setOnClickListener(view -> {
-            if ("About us".equals(arrayList.get(position).getTitle())) {
-//                view.getContext().startActivity(new Intent(context, AboutUsActivity.class));
+            if (view.getResources().getString(R.string.info_about_bu).equals(arrayList.get(position).getTitle())) {
+                view.getContext().startActivity(new Intent(context, AboutBUActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             } else {
                 Toast.makeText(context, arrayList.get(position).getTitle() + " still Working", Toast.LENGTH_SHORT).show();
             }
