@@ -1,10 +1,16 @@
 package bu.edu.bd.android.HomeFragmentItems.Admission;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.WindowManager;
 
+import java.util.Objects;
+
+import bu.edu.bd.android.DashBoard.DashBoard;
 import bu.edu.bd.android.R;
 import bu.edu.bd.android.databinding.ActivityAdmissionBinding;
 import bu.edu.bd.android.databinding.ActivityMissionAndVisionBinding;
@@ -21,6 +27,9 @@ public class Admission extends AppCompatActivity {
         setContentView(binding.getRoot());
         this.setTitle("Admission Info");
 
+        Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         binding.admissionStart.setText(R.string.addmission_start);
         binding.studentEnrollmentTitle.setText(R.string.student_enrollment_title);
         binding.studentEnrollmentTitleOne.setText(R.string.student_enrollment_title_one);
@@ -35,5 +44,22 @@ public class Admission extends AppCompatActivity {
         binding.faTwo.setText(R.string.financial_aid_two);
         binding.faThree.setText(R.string.financial_aid_three);
         binding.faFour.setText(R.string.financial_aid_four);
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        this.finish();
+        startActivity(new Intent(getApplicationContext(), DashBoard.class));
+        super.onBackPressed();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            this.finish();
+            startActivity(new Intent(getApplicationContext(), DashBoard.class));
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
