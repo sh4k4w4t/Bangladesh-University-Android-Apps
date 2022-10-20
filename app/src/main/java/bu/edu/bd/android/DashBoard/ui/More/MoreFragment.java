@@ -1,5 +1,6 @@
 package bu.edu.bd.android.DashBoard.ui.More;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import bu.edu.bd.android.MoreFragmentItems.DeveloperInformation.DeveloperInformation;
 import bu.edu.bd.android.databinding.FragmentMoreBinding;
 
 public class MoreFragment extends Fragment {
@@ -36,7 +38,7 @@ public class MoreFragment extends Fragment {
             Toast.makeText(requireActivity(), "Student Online Portal Still Working...", Toast.LENGTH_SHORT).show();
         });
         binding.developerInformation.setOnClickListener(view -> {
-            Toast.makeText(requireActivity(), "Developer Section Still Working...", Toast.LENGTH_SHORT).show();
+            requireActivity().startActivity(new Intent(requireActivity(), DeveloperInformation.class));
         });
 
 

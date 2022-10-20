@@ -33,4 +33,88 @@
     <string name="info_stamford_university">Stamford</string>
 
 
+    <!--    about bu-->
+    <string name="about_bu_part_1">Bangladesh University (BU) was established in 2001 under Private University Act, 1992 by Mr. Quazi Azher Ali, as a non-profit, non-political private university pioneering in computer-based education. It has been accredited by the Government of the People’s Republic of Bangladesh. Its curricula as well as programs have been approved by the University Grants Commission (UGC) of Bangladesh. BU is approved by the Government of Bangladesh for awarding degrees in various disciplines. We are committed to excellence and innovation in pursuing applied knowledge through research and creative activities with the objectives of producing world-class professionals responsive to the need of the Bangladeshi community and world at large.</string>
+    <string name="about_bu_part_2">BU started its academic session with 17 students and 0.02 acres of space in 2001. Now BU accommodates more than 6500 students in four campuses. With 130 full-time and 30 part-time faculty members and 110 administrative members, our community continues to grow to cater to the needs of both the students the nation as well.</string>
+    <string name="about_bu_part_3">The first campus of BU is located at a posh area of the capital city near the Bangladesh Parliament at 15/1, Iqbal Road, Mohammadpur, Dhaka-1207. Other two campuses are also in Mohammadpur. The permanent campus having 1.7026 acres of land is located at 5/B, Beribandh Main Road, Adabar, Mohammadpur, Dhaka which is well connected with other parts of Dhaka city and only one and a half kilometers away from the first campus. The permanent campus has already been inaugurated by Advocate Jahangir Kabir Nanak, MP and former Hon’ble State Minister for Local Govt., Rural Development and Co-operatives on October 18, 2011.</string>
+    <string name="about_bu_part_4">The President of the People’s Republic of Bangladesh is the Chancellor of Bangladesh University (BU). He appointed Quazi Azher Ali, M.Sc. (DU), MPA (Harvard), the founder of BU as its Vice Chancellor. Virtually BU is the vivid imaginative conception of this noble soul. He held this position since its inception in October, 2001 till the day of his death on December 15, 2009. He had high academic achievement with long and varied experiences in national and international administration including Secretary to the Government of Bangladesh and Executive Director of Asian Development Bank (ADB). Mr. Ali agreed to accept taka one per month as salary considering the initial financial problems for a new noncommercial institution.</string>
+
+    <!--  Mission and Vision-->
+    <string name="vision">The vision of BU is to develop and nurture talent with modern knowledge to meet the national needs in global perspective. To ensure a knowledge-based society and to meet the challenges of 21st century, it extends its focus on high standard quality education, innovation, discovery, research and creative activities. Thus it will be able to generate capable and ethical leaders who will lead the nation and the globe as well. BU is committed to reflecting the values and aspirations of the nation.</string>
+    <string name="mission">The primary mission of BU is to ensure quality higher education at a minimum cost especially for the financially backward group of people. It is keen to expand information technology to help build up a digital Bangladesh. Through co-curricular activities, combining knowledge and training along with ethical values, it wants to create a patriotic community that will feel the urge within to serve the nation and the humanity. Our mission is to create future leaders that can contribute to change the nation for better tomorrow.</string>
+
+    <!-- Offered Degree-->
+    <string name="od_title">Bangladesh University (BU) currently operates 15 programs under three distinct faculties</string>
+
+    <string name="od_faculty_FSET">1. Faculty of Science, Engineering &amp; Technology</string>
+    <string name="od_faculty_FASSL">2. Faculty of Arts, Social Science &amp; Law</string>
+    <string name="od_faculty_FBAE">3. Faculty of Business Administration &amp; Economics</string>
+
+    <string name="od_under_gra_are_option_title">Faculty of Science, Engineering &amp; Technology</string>
+    <string name="od_under_gra_are_option">Undergraduate Programs are:</string>
+    <string name="od_under_gra_bsc">Bachelor of Science (B.Sc.), Honors in - </string>
+    <string name="od_under_gra_cse">1. Computer Science &amp; Engineering (CSE)</string>
+    <string name="od_under_gra_math">2. Mathematics</string>
+    <string name="od_under_gra_phar">5. Pharmacy</string>
+    <string name="od_under_gra_eee">4. Electrical and Electronic Engineering (EEE)</string>
+    <string name="od_under_gra_arch">3. Architecture (BArch) [5 years]</string>
+
+    <string name="od_fassl_title">Faculty of Arts, Social Science &amp; Law (FASSL)</string>
+    <string name="od_fassl_title_options">Bachelor of Arts (BA), Honors in -</string>
+    <string name="od_fassl_english">1. English</string>
+    <string name="od_fassl_sociology">2. Sociology</string>
+    <string name="od_fassl_llb">3. Bachelor of Laws (LL.B)</string>
+    <string name="od_gra_master_prog_are">Graduate (Master) Programs are:</string>
+    <string name="od_ma_english_1">3. MA in English - One year</string>
+    <string name="od_ma_english_2">4. MA in English - Two years</string>
+    <string name="od_ma_llb_1">1. Master of Laws (LL.M) - One year</string>
+    <string name="od_ma_llb_2">2. Master of Laws (LL.M) - Two years</string>
+
+    <string name="od_FBAE_title">Faculty of Business Administration &amp; Economics (FBAE)</string>
+    <string name="od_BBA_major_in">* Bachelor of Business Administration (BBA), Major in -</string>
+    <string name="od_bba_account">1. Accounting</string>
+    <string name="od_bba_finanace">2. Finance</string>
+    <string name="od_bba_market">3. Marketing</string>
+    <string name="od_bba_hrm">4.HRM</string>
+    <string name="od_bba_economics">* Bachelor of Economics</string>
+    <string name="od_mba_regular">1. Master of Business Administration (MBA) - Regular</string>
+    <string name="od_mba_executive">2. Master of Business Administration (MBA) - Executive</string>
+    <string name="od_mba_bba_holder">3. Master of Business Administration (MBA) - BBA Holder</string>
+
+    <!--    Academic Policies-->
+    <string name="ap_one">Class and Examination Schedules are specified in Academic Calendar of the university. Information about year and semester wise course distribution has been included in the respective section of this catalog and also available in the university website.</string>
+    <string name="lessonPlan_one">Lesson Plan</string>
+    <string name="lessonPlan_two">At the beginning of the semester, each faculty member will submit a lesson plan with statement of the program of evaluation of students’ performance by way of essays, tests examination, seminar presentations along with the relative weight of these methods in relation to the overall grade and the timing of each major evaluation.</string>
+    <string name="attendence_one">Class Attendance</string>
+    <string name="attendence_two">The students are required to attend at least 70% of the classes held in each course in a semester. Failing which they will not be allowed to sit for the Semester Final Examination. However, the authority may condone the shortage of requisite percentage on grounds acceptable to the authority.</string>
+    <string name="Coding_system_in_Final_Examination_one">Coding system in Final Examination</string>
+    <string name="Coding_system_in_Final_Examination_two">In order to attain transparency Final Examinations are conducted on the basis of coding system. In this system answer scripts are coded so that no examiners will be able to identify any student. Moreover, all answer scripts are evaluated in the university premises within a stipulated time and results are uploaded on the software immediately after the evaluation of answer scripts to publish results in a shortest possible time. And thereby transcripts and certificates be issued to the outgoing students without any delay.</string>
+    <string name="Credit_Hours_System_one">Credit Hours System</string>
+    <string name="Credit_Hours_System_two">The academic system of study of BU is based on credit hours. Three credit hours theory course represents two lecture per week per semester. Duration of each class is of one and half hours. Two credit hours theory course represents one lecture per week per semester. The duration of each class is of one and half hours. One 1.5 credit hours lab course represents one lab class per week per semester. Duration of each lab class will be of three hours. Credits are also assigned to project/thesis work taken by students. The amount of credits assigned to such work may vary from discipline to discipline.</string>
+    <string name="Mid_term_and_Final_Examinations_one">Mid term and Final Examinations</string>
+    <string name="Mid_term_and_Final_Examinations_two">The university has a high ethical standard and concerted efforts made to conduct all examinations by fair means.  20% of marks is allotted for continuous assessment, 30% of marks is allotted for Midterm Examination and remainder 50% of marks is allotted for Final Examination. Midterm Examination of one and half hour duration is conducted by individual department and Final Examination of two hour duration is conducted centrally by Controller of Examinations .The students are evaluated by their teachers, especially when they give tests, quizzes and tutorials during the class hour. Conducting Mid-term Examination and Final Examination is a collective enterprise.</string>
+    <string name="Makeup_Missed_Failed_Examinations_one">Makeup (Missed/Failed) Examinations</string>
+    <string name="Makeup_Missed_Failed_Examinations_two">A student who has failed to set for either Mid-Term or Semester Final Examination or both for serious illness or death or accident in the family or other valid reasons may submit an application to the Head of the Department for Makeup/Retake Examination. This application must be supported by valid documentary proof. A student has to apply to the Controller of Examinations on prescribed form through concerned Head of the Department paying prescribed fees as determined by the competent authority.</string>
+    <string name="Improvement_Examination_one">Improvement Examination(s)</string>
+    <string name="Improvement_Examination_two">Student(s) obtaining C+ and below grade in any course(s) are eligible to sit for Improvement Examination. The concerned student(s) will have to re-register the course(s) and sit for the said examination(s) with the next batch on payment of improvement fees. However, for Lab/ Practical/ Sessional courses/Viva-voce, no Improvement Examination(s) will be entertained.</string>
+    <string name="Dropout_Course_due_to_disciplinary_action_Recourse_Examinations_one">Dropout Course(s) [due to disciplinary action]/ Recourse(s) Examinations</string>
+    <string name="Dropout_Course_due_to_disciplinary_action_Recourse_Examinations_two">For dropout (due to disciplinary action) course(s), a student shall have to re-registrar &amp; re-course the dropout course(s) and attend the classes accordingly and will sit for the examination(s) with the next batch paying re-course examination fee(s) for the course(s).</string>
+
+    <!--  Admission -->
+    <string name="addmission_start">BU Admissions at a Glance</string>
+    <string name="student_enrollment_title">Student Enrollment</string>
+    <string name="student_enrollment_title_one">Undergraduates: 6000</string>
+    <string name="student_enrollment_title_two">Graduates: 500</string>
+    <string name="under_graduation_admission_one">Undergraduate admission</string>
+    <string name="under_graduation_admission_two">10 departments and programs offer graduate study</string>
+    <string name="under_graduation_admission_three">Application deadlines vary by program</string>
+    <string name="graduation_admission_one">Graduate admission</string>
+    <string name="graduation_admission_two">3 departments and programs offer graduate study.</string>
+    <string name="graduation_admission_three">Application deadlines vary by program.</string>
+    <string name="financial_aid_one">Financial Aid</string>
+    <string name="financial_aid_two">20% - 100% weaver policy for merit students.</string>
+    <string name="financial_aid_three">Graduate study aid is based on availability of funds and academic merit.</string>
+    <string name="financial_aid_four">About 3% of graduate students receive financial aid.</string>
+
+
 </resources>

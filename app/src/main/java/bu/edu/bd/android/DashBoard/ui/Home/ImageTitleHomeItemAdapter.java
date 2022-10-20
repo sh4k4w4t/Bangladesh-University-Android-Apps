@@ -12,7 +12,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
-import bu.edu.bd.android.AboutBU.AboutBUActivity;
+import bu.edu.bd.android.HomeFragmentItems.AboutBU.AboutBUActivity;
+import bu.edu.bd.android.HomeFragmentItems.AcademicPolicies.AcademicPolicies;
+import bu.edu.bd.android.HomeFragmentItems.Admission.Admission;
+import bu.edu.bd.android.HomeFragmentItems.MissionAndVision.MissionAndVision;
+import bu.edu.bd.android.HomeFragmentItems.OfferedDegree.OfferedDegree;
+import bu.edu.bd.android.MoreFragmentItems.DeveloperInformation.DeveloperInformation;
 import bu.edu.bd.android.R;
 
 public class ImageTitleHomeItemAdapter extends RecyclerView.Adapter<ImageTitleHomeItemAdapter.AdapterHolder>{
@@ -39,7 +44,15 @@ public class ImageTitleHomeItemAdapter extends RecyclerView.Adapter<ImageTitleHo
         holder.itemView.setOnClickListener(view -> {
             if (view.getResources().getString(R.string.info_about_bu).equals(arrayList.get(position).getTitle())) {
                 view.getContext().startActivity(new Intent(context, AboutBUActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-            } else {
+            } else if(view.getResources().getString(R.string.info_misson_vision).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, MissionAndVision.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            } else if(view.getResources().getString(R.string.info_offered_degree).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, OfferedDegree.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            }else if(view.getResources().getString(R.string.info_academic_policies).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, AcademicPolicies.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            }else if(view.getResources().getString(R.string.info_admission).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, Admission.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            }else {
                 Toast.makeText(context, arrayList.get(position).getTitle() + " still Working", Toast.LENGTH_SHORT).show();
             }
         });

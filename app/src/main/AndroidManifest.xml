@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="bu.edu.bd.android">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,10 +14,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BangladeshUniversity"
-        tools:targetApi="31"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
         <activity
-            android:name=".AboutBU.AboutBUActivity"
+            android:name=".HomeFragmentItems.Admission.Admission"
+            android:exported="false" />
+        <activity
+            android:name=".HomeFragmentItems.AcademicPolicies.AcademicPolicies"
+            android:exported="false" />
+        <activity
+            android:name=".HomeFragmentItems.OfferedDegree.OfferedDegree"
+            android:exported="false" />
+        <activity
+            android:name=".HomeFragmentItems.MissionAndVision.MissionAndVision"
+            android:exported="false" />
+        <activity
+            android:name=".MoreFragmentItems.DeveloperInformation.DeveloperInformation"
+            android:exported="false" />
+        <activity
+            android:name=".HomeFragmentItems.AboutBU.AboutBUActivity"
             android:exported="false" />
         <activity
             android:name=".DashBoard.DashBoard"
