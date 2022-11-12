@@ -2,19 +2,26 @@ package bu.edu.bd.android.HomeFragmentItems.administration;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 import bu.edu.bd.android.DashBoard.DashBoard;
+import bu.edu.bd.android.R;
 import bu.edu.bd.android.databinding.ActivityBoardOfTrustBinding;
 
 public class BoardOfTrust extends AppCompatActivity {
-    ActivityBoardOfTrustBinding binding;
+    ActivityBoardOfTrustBinding  binding;
+    RecyclerView recyclerView;
+    BoardOfTrustAdapter adapter;
+    ArrayList<BoardOfTrustModel> arrayList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +34,18 @@ public class BoardOfTrust extends AppCompatActivity {
 
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        arrayList= new ArrayList<>();
+        arrayList.add(new BoardOfTrustModel(R.drawable.message_from_founder,getResources().getString(R.string.app_name)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.message_from_founder,getResources().getString(R.string.app_name)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.message_from_founder,getResources().getString(R.string.app_name)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.message_from_founder,getResources().getString(R.string.app_name)));
+
+        recyclerView= binding.recycleviewBroadOfTrust;
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setHasFixedSize(true);
+        adapter= new BoardOfTrustAdapter(getApplicationContext(),arrayList);
+        recyclerView.setAdapter(adapter);
 
     }
 

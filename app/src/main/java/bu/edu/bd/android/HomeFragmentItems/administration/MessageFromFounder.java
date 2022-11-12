@@ -11,6 +11,7 @@ import android.view.WindowManager;
 import java.util.Objects;
 
 import bu.edu.bd.android.DashBoard.DashBoard;
+import bu.edu.bd.android.R;
 import bu.edu.bd.android.databinding.ActivityMessageFromFounderBinding;
 
 public class MessageFromFounder extends AppCompatActivity {
@@ -27,6 +28,8 @@ public class MessageFromFounder extends AppCompatActivity {
 
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        binding.messagefromFounderId.setText(R.string.messageFromFounder);
     }
 
     @Override

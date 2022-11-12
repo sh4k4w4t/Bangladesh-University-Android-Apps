@@ -166,4 +166,29 @@
 \n\n3. A Graduate degree must be completed within four {4}Years time from the date of enrolment.
 \n\n4. Any exception to the above must be approved by the Academic Council of the university.</string>
 
+
+    <string name="messageFromFounder">\n\nEurope and USA are the homes of about twenty percent of the world population. But they have been ruling the world for the last 400 years. This has been possible purely due to their technological superiority. Since World War-2, the world has been transformed into a global village with scientific inventions leading to economic and social revolutions. But all the modern inventions took place in the western world. The rest of the world has been following the leading western countries in all fields of science, technology, economy etc.
+        \n\nWe are lagging behind due to lack of modern high-standard scientific education. We have institutions, but they are not manned or equipped with appropriate teachers, equipment, facilities and environment.
+        \n\nEstablishments of private universities is a new phenomenon in Bangladesh. From 1992 to 2001 a total number of I7 private universities were allowed to enroll students. In 2002, another 37 private universities were granted permission to commence operations. This number will be increasing rapidly with the passage of time. The opening of the large number of private universities in quick succession created critical shortage of resources, especially good quality teachers, as required for modern higher education. As a result, the quality of education has suffered in Bangladesh in some cases. In a recent survey of universities throughout the world by Shanghai University shows that not a single university of this country could be included among the top 500 universities.
+        \n\nEconomic development of erstwhile East Pakistan, the present Bangladesh, commenced in 1961. Development budget was prepared, administration was decentralized, new universities including Technical and Agricultural Universities were established, colleges were opened at sub-divisional and upazila levels, High schools were established at union levels, new industries sprang up, a network of high-ways were constructed, towns were modernized, medical colleges were opened, hospitals at upazila levels were constructed, malaria, cholera, tuberculosis and small pox were eradicated and private sector was encouraged by the government. After liberation in 1971, the administration was again centralized and a pragmatic economy was introduced in the interest of common people.
+        \n\nIn the 80s, vigorous decentralization including Upazila Parishad, Zila Parishad and judiciary up to Upazila level was introduced. Privatization of commerce and industries was completed.
+        \n\nDuring the last 3 decades, the latent talents of the people have been encouraged through privatization. New industries including garment, textile, leather, iron, chemicals and medicine have been established for domestic and export markets. People have become outward-looking and are going to far off counties for employment and business. The percentage of educated people has increased sharply. New ideas, plans and activities are noticed in all spheres of life. Dhaka has become a sprawling capital city. Many private universities were established by new entrepreneurs. Textile and Leather Institutes are churning out thousands of graduates every year who are working as catalysts for the economy. The development works of the last 44 years, have provided the nation with all types of necessary infrastructures. In spite of these spectacular developments, where do we stand now in the global context?
+        \n\nWhen the world is working with robots, nanotechnology and hybrid engines, Bangladesh has been importing needles for garment industries. While developed countries have already completed gene mapping and currently conducting brain mapping, our Universities, Colleges and Research Institutions (BCSIR and Atomic Energy Commission) have no modern program and equipment. For innovation, the country needs well-educated workforce, financial backing, supportive government policies and co-operation of universities with industries in the field of technology.
+        \n\nTo achieve the goal of modernization, the private universities, including teachers and management must have a grand vision and commitments. A modern road map to the future of the nation and next generation is required. Do we have that vision and the road map? Have we got that type of enlightened visionary and committed teachers and researches? It needs self-analysis and soul-searching. We can try our best in the present environment and with available resources to expand the horizon further.</string>
+
+    <string name="vc_mezba">Prof. Dr. Mesbah Uddin Ahmed (Mesbah Kamal)
+        \n\nUGC Post-doctoral fellowship (on-going),
+        \n\nPh.D. Awarded from University of Dhaka,
+        \n\nMA in History, University of Dhaka
+        \n\nBA (H) in History, University of Dhaka
+        \n\nVice Chancellor (Acting)
+        \n\nEmail: vc@bu.edu.bd</string>
+    <string name="vc_taif">Dr. Quazi Taif Sadat, PhD
+        \n\nDirector
+        \n\nEmail: taif@panbangla.com</string>
+    <string name="vc_shamima">Shamima Khan
+        \n\nExecutive (Ps to VC)
+        \n\nEmail: shamimakhan27@gmail.com
+        \n\nPhone: 01755559329</string>
+
 </resources>

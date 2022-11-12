@@ -11,6 +11,7 @@ import android.view.WindowManager;
 import java.util.Objects;
 
 import bu.edu.bd.android.DashBoard.DashBoard;
+import bu.edu.bd.android.R;
 import bu.edu.bd.android.databinding.ActivityVcofficeBinding;
 
 public class VCOffice extends AppCompatActivity {
@@ -27,6 +28,13 @@ public class VCOffice extends AppCompatActivity {
 
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        binding.vcMezba.setText(R.string.vc_mezba);
+        binding.vcTaif.setText(R.string.vc_taif);
+        binding.vcShamima.setText(R.string.vc_shamima);
+        binding.mezbaImage.setImageResource(R.drawable.vc_mezba);
+        binding.taifImage.setImageResource(R.drawable.vc_taif);
+        binding.shamimaImage.setImageResource(R.drawable.vc_shamima);
     }
 
     @Override

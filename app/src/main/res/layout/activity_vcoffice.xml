@@ -1,8 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragmentItems.administration.VCOffice">
+    tools:context=".HomeFragmentItems.administration.VCOffice"
+    android:padding="10dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/color_code_main_4"
+            tools:targetApi="lollipop">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/mezbaImage"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="4"
+                    android:contentDescription="image"
+                    android:padding="2dp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:id="@+id/vc_mezba"
+                    android:padding="4dp"
+                    android:textColor="@color/black" />
+
+             </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/color_code_main_4"
+            tools:targetApi="lollipop">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/taifImage"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="4"
+                    android:padding="2dp"
+                    android:contentDescription="image"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:id="@+id/vc_taif"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/color_code_main_4"
+            tools:targetApi="lollipop">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/shamimaImage"
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="4"
+                    android:padding="2dp"
+                    android:contentDescription="image"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/vc_shamima"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
