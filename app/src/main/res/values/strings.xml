@@ -208,7 +208,7 @@
     <string name="bot_sharmin">Advocate Sarmin Ahmed Mazumder</string>
 
 
-<!--    name of registrar-->
+    <!--    name of registrar-->
     <string name="rBrig">Brig. Gen. Md. Mahbubul Haque (Retd)\nRegistrar|n\nEmail: registrar.bu@bu.edu.bd\nPhone: 02 8117951\nFax: +88 02 9141019</string>
     <string name="rSiddiqur">Md. Siddiqur Rahman\nDeputy Registrar\n\nEmail: deputyregistrar.le@bu.edu.bd\nPhone: 01755559324,\n01771186003</string>
     <string name="rNaureen">Naureen Ayesha\nDeputy Registrar\nEmail: deputyregistrar@bu.edu.bd\nPhone: 01755511980</string>
@@ -247,7 +247,7 @@
     <string name="rMoin">Md. Moin Uddin Niloy\nLab Assistant (EEE)\nEmail: niloykhan74@gmail.com\nPhone: 01303118552</string>
     <string name="rSabuj" tools:ignore="Typos">Md. Sabuj Rana\nLab Assistant (Pharmacy)\nEmail: md.sabujranadgc1@gmail.com\nPhone: 01785392642</string>
 
-<!--    controller-->
+    <!--    controller-->
     <string name="ramirul">Prof. Md. Amirul Alam Khan\nEmail: controller@bu.edu.bd</string>
     <string name="rDidar">Didar Elahi\nEmail: deputycontroller@bu.edu.bd\nPhone: 01755511988</string>
     <string name="rrajib" tools:ignore="Typos">Md. Rajib Hossain\nEmail: asst.controller1@bu.edu.bd\nPhone: 01755511975</string>
@@ -255,5 +255,27 @@
     <string name="rMoniruzzam">Moniruzaman Biswas\nOffice Assistant\nEmail: sabujbiswas006@gmail.com\nPhone: 01716481419</string>
     <string name="rliza">Liza Moni\nOffice Assistant\nEmail: lizamoni@yahoo.com\nPhone:  01740243896</string>
     <string name="rsushanto">Shusanto Kumar Das\nOffice Assistant\nEmail: santosabuj@gmail.com\nPhone: 01739854019</string>
-    
+
+    <!--    accounts-->
+    <string name="aakther">Akther Hossain\nDeputy Director\nAccounts &amp; Finance and Audit\nEmail: dd.f.a@bu.edu.bd\nPhone: 01755559306</string>
+    <string name="asheak">Sheakh Farid Hossain\nJr. Assistant Director (A &amp; F)\nEmail: accounts@bu.edu.bd,\nsheakhfarid@yahoo.com\nPhone: 01915679309</string>
+    <string name="asamad">A. Samad Molla\nJr. Assistant Director (A &amp; F)\nEmail: accounts@bu.edu.bd,\nasamadmolla_narail@yahoo.com\nPhone: 01712845955</string>
+    <string name="ashamima">Shamima Akter\nJr. Assistant Director (A &amp; F)	Email: shamima.ak1130@gmail.com\nPhone: 01755677926</string>
+    <string name="amushfequr">Shaikh Mushfequr Rahman\nOffice Assistant\nEmail: sk.mushfequr@gmail.com\nPhone: 01865550008</string>
+    <string name="aabdullah">Abdullah- Al-Mahmud\nOffice Assistant\nEmail: almahmud.bu@gmail.com\nPhone: 01927365592</string>
+
+<!--    library-->
+    <string name="lnawsin">Nawshin Laila\nSr. Assistant Librarian (Main Campus)\nEmail: librarian@bu.edu.bd\nPhone: +88 02 8117951 (Ext- 121)</string>
+    <string name="lmojlesur">Md. Mokhlasur Rahman\nJr. Assistant Librarian (Main Campus)\nEmail: m.mokhlasur_selimreaza@yahoo.com\nPhone: 01789539500</string>
+    <string name="lmahabul">Md. Mahabul Islam\nJr. Asst. Librarian\nEmail: mmahabul2020@gmail.com\nPhone: 01862785825</string>
+    <string name="lsima">Sima Rani Bhowmick\nCataloguer (Main Campus)\nEmail: simarani_du@yahoo.com\nPhone: 01746430971</string>
+    <string name="abdulAlim">Md. Abdul Alim\nCataloguer (2nd Campus)\nEmail: abdulalim_ismc@yahoo.com\nPhone: 01986028407</string>
+
+<!--    IT-->
+    <string name="ikhabir">Md. Khabir Uddin\nSenior Software Architect\nSoftware Consultant (Part-time)\nEmail: khabir.uddin@bu.edu.bd</string>
+    <string name="iataur">Md. Ataur Rahman\nSoftware Consultant\nEmail: ataur_rahman@onirban.net</string>
+    <string name="imehedi">Md. Mahedi Mahfuj\nSoftware Consultant (Part-time)\nEmail: md.mahedimahfuj@gmail.com</string>
+    <string name="iprovakor">Provakar Roy\nIT Executive\nEmail: it@bu.edu.bd\nPhone: 01755511983</string>
+    <string name="inigram">Md Nigran Islam Mizan\nIT Executive (Web Develop)\nEmail: it@bu.edu.bd\nPhone: 01755511984</string>
+
 </resources>

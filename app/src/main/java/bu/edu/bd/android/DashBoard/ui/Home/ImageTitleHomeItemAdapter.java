@@ -21,8 +21,11 @@ import bu.edu.bd.android.HomeFragmentItems.admission.Admission;
 import bu.edu.bd.android.HomeFragmentItems.about.MissionAndVision;
 import bu.edu.bd.android.HomeFragmentItems.academicInformation.OfferedDegree;
 import bu.edu.bd.android.HomeFragmentItems.academicInformation.RulesAndRegulationActivity;
+import bu.edu.bd.android.HomeFragmentItems.officeInformation.Account;
 import bu.edu.bd.android.HomeFragmentItems.officeInformation.Controller;
+import bu.edu.bd.android.HomeFragmentItems.officeInformation.Library;
 import bu.edu.bd.android.HomeFragmentItems.officeInformation.Registrar;
+import bu.edu.bd.android.HomeFragmentItems.officeInformation.Tech;
 import bu.edu.bd.android.R;
 
 public class ImageTitleHomeItemAdapter extends RecyclerView.Adapter<ImageTitleHomeItemAdapter.AdapterHolder>{
@@ -69,6 +72,12 @@ public class ImageTitleHomeItemAdapter extends RecyclerView.Adapter<ImageTitleHo
                 view.getContext().startActivity(new Intent(context, Registrar.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             }else if(view.getResources().getString(R.string.info_controller_office).equals(arrayList.get(position).getTitle())){
                 view.getContext().startActivity(new Intent(context, Controller.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            }else if(view.getResources().getString(R.string.info_office_of_the_account).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, Account.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            }else if(view.getResources().getString(R.string.info_library_office).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, Library.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            }else if(view.getResources().getString(R.string.info_it_office).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, Tech.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             }else {
                 Toast.makeText(context, arrayList.get(position).getTitle() + " still Working", Toast.LENGTH_SHORT).show();
             }
