@@ -278,4 +278,9 @@
     <string name="iprovakor">Provakar Roy\nIT Executive\nEmail: it@bu.edu.bd\nPhone: 01755511983</string>
     <string name="inigram">Md Nigran Islam Mizan\nIT Executive (Web Develop)\nEmail: it@bu.edu.bd\nPhone: 01755511984</string>
 
+    <!--    cse section front-->
+    <string name="cseAdvisor">Quazi Jamil Azher\n\nAdvisor\n\nDepartment of CSE</string>
+    <string name="cseFromHead">Md. Sadiq Iqbal\n\nAssistant Professor &amp; Head\n\nDepartment of CSE</string>
+
+
 </resources>

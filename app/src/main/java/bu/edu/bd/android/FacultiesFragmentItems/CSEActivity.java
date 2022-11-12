@@ -4,8 +4,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.WindowManager;
 import java.util.Objects;
 import bu.edu.bd.android.DashBoard.DashBoard;
@@ -24,8 +26,10 @@ public class CSEActivity extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-
-
+        binding.academicSupport.setOnClickListener(view -> BrowserLinkSetup("https://cse.bu.edu.bd/academic-support/"));
+        binding.syllabus.setOnClickListener(view -> BrowserLinkSetup("https://cse.bu.edu.bd/syllabus/"));
+        binding.website.setOnClickListener(view -> BrowserLinkSetup("https://cse.bu.edu.bd/"));
+        binding.allMembers.setOnClickListener(view -> startActivity(new Intent(CSEActivity.this,CSEAllFacultyMembersList.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)));
     }
 
     @Override
@@ -42,5 +46,12 @@ public class CSEActivity extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(), DashBoard.class));
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void BrowserLinkSetup(String link){
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(link));
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
     }
 }
