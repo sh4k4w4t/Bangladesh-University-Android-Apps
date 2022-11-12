@@ -282,5 +282,35 @@
     <string name="cseAdvisor">Quazi Jamil Azher\n\nAdvisor\n\nDepartment of CSE</string>
     <string name="cseFromHead">Md. Sadiq Iqbal\n\nAssistant Professor &amp; Head\n\nDepartment of CSE</string>
 
+<!--    listOfCSEFacultymembers-->
+    <string name="fSadiq">Md. Sadiq Iqbal\nFaculty Id :200510001\nDesignation :Associate Professor &amp; Chairman</string>
+    <string name="fAsraf">Dr. Md. Asraf Ali\nFaculty Id :200510038\nDesignation :Associate Professor</string>
+    <string name="fYasir">Yeasir Fathah Rumi\nFaculty Id :200510003\nDesignation :Assistant Professor &amp; Department Coordinator</string>
+    <string name="fSahriar">A.H.M Shahariar Parvez\nFaculty Id :200710004\nDesignation :Assistant Professor</string>
+    <string name="fIbrahim">Mohammed Ibrahim Hussain\nFaculty Id :200710005\nDesignation :Assistant Professor &amp; Semester program Coordinator</string>
+    <string name="fRokeya">Mst. Rokeya Khatun\nFaculty Id :201210014\nDesignation :Assistant Professor</string>
+    <string name="fSalma">Umme Salma\nFaculty Id :201310018\nDesignation :Senior Lecturer &amp; Coordinator</string>
+    <string name="fArifin">Mohammad Arifin Rahman KHAN\nFaculty Id :201310019\nDesignation :Senior Lecturer</string>
+    <string name="fAsraful">Ashraful Kabir Anik\nFaculty Id :201310021\nDesignation :Lecturer</string>
+    <string name="fSadia">Sadia Afrin Shampa\nFaculty Id :201510032\nDesignation :Senior Lecturer</string>
+    <string name="fjakir">Md Zakir Hossain\nFaculty Id :\nDesignation :Lecuturer</string>
+    <string name="fTarique">Tarique Latif\nFaculty Id :201610049\nDesignation :Lecturer</string>
+    <string name="fSaydur">Mohammad Sayeedur Rahman\nFaculty Id :201610051\nDesignation :Lecturer</string>
+    <string name="fRiaz">Md. Riaz Uddin\nFaculty Id :201710056\nDesignation :Lecturer</string>
+    <string name="fMahfuz">Md. Mahfuj Howlader\nFaculty Id :201710057\nDesignation :Lecturer</string>
+    <string name="fJubayer">Jubayer Al Mahmud\nFaculty Id :201710059\nDesignation :Lecturer</string>
+    <string name="fSisir">Shishir Mallick\nFaculty Id :201810060\nDesignation :Lecturer</string>
+    <string name="fTariqul">Md. Tariqul Islam\nFaculty Id :201810061\nDesignation :Lecturer</string>
+    <string name="fHasib">Khan Md. Hasib\nFaculty Id :201810064\nDesignation :Lecturer &amp; Coordinator</string>
+    <string name="fIftekharul">Md. Iftekharul Islam\nFaculty Id :201910067\nDesignation :Lecturer</string>
+    <string name="fAfsana">Afsana Islam\nFaculty Id :201910068\nDesignation :Lecturer</string>
+    <string name="fNazim">Nazim Uddin\nFaculty Id :201910069\nDesignation :Lecturer</string>
+    <string name="fAhammad">Md. Abu Ahammed Babu\nFaculty Id :201910071\nDesignation :Lecturer</string>
+    <string name="fShakil">Md Shakil Ahmed\nFaculty Id :201910072\nDesignation :Lecturer</string>
+    <string name="fFazle">Fazle Rahat\nFaculty Id :202010073\nDesignation :Lecturer</string>
+    <string name="fAhsan">Md. Ahsan Habib\nFaculty Id :202010074\nDesignation :Lecturer</string>
+    <string name="fAnik">Anik Das\nFaculty Id :202010075\nDesignation :Lecturer</string>
+    <string name="fAsib">Asib Hasan\nFaculty Id :202010076\nDesignation :Lecturer (Part-time)</string>
+
 
 </resources>
