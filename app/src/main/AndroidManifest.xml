@@ -16,29 +16,50 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".HomeFragmentItems.rulesAndRegulation.RulesAndRegulationActivity"
+            android:name=".HomeFragmentItems.administration.VCOffice"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".HomeFragmentItems.Admission.Admission"
+            android:name=".HomeFragmentItems.administration.BoardOfTrust"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HomeFragmentItems.administration.MessageFromFounder"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HomeFragmentItems.academicInformation.RulesAndRegulationActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HomeFragmentItems.admission.Admission"
             android:exported="false" />
         <activity
-            android:name=".HomeFragmentItems.AcademicPolicies.AcademicPolicies"
+            android:name=".HomeFragmentItems.academicInformation.AcademicPolicies"
             android:exported="false" />
         <activity
-            android:name=".HomeFragmentItems.OfferedDegree.OfferedDegree"
+            android:name=".HomeFragmentItems.academicInformation.OfferedDegree"
             android:exported="false" />
         <activity
-            android:name=".HomeFragmentItems.MissionAndVision.MissionAndVision"
+            android:name=".HomeFragmentItems.about.MissionAndVision"
             android:exported="false" />
         <activity
             android:name=".MoreFragmentItems.DeveloperInformation.DeveloperInformation"
             android:exported="false" />
         <activity
-            android:name=".HomeFragmentItems.AboutBU.AboutBUActivity"
+            android:name=".HomeFragmentItems.about.AboutBUActivity"
             android:exported="false" />
         <activity
             android:name=".DashBoard.DashBoard"

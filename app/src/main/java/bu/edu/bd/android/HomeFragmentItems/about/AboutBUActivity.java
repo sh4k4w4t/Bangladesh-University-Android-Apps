@@ -1,4 +1,4 @@
-package bu.edu.bd.android.HomeFragmentItems.MissionAndVision;
+package bu.edu.bd.android.HomeFragmentItems.about;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,29 +8,36 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.WindowManager;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.target.Target;
+
 import java.util.Objects;
 
 import bu.edu.bd.android.DashBoard.DashBoard;
+import bu.edu.bd.android.LinkForDataCollect;
 import bu.edu.bd.android.R;
-import bu.edu.bd.android.databinding.ActivityMissionAndVisionBinding;
+import bu.edu.bd.android.databinding.ActivityAboutBuactivityBinding;
 
-public class MissionAndVision extends AppCompatActivity {
-    ActivityMissionAndVisionBinding binding;
+public class AboutBUActivity extends AppCompatActivity {
+    ActivityAboutBuactivityBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding= ActivityMissionAndVisionBinding.inflate(getLayoutInflater());
+        binding = ActivityAboutBuactivityBinding.inflate(getLayoutInflater());
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(binding.getRoot());
-        this.setTitle("Mission & Vision");
+        this.setTitle("About BU");
 
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        binding.vision.setText(R.string.vision);
-        binding.mission.setText(R.string.mission);
+        binding.imageView.setImageResource(R.drawable.loading_image_large);
+        binding.partOne.setText(R.string.about_bu_part_1);
+        binding.partTwo.setText(R.string.about_bu_part_2);
+        binding.partThree.setText(R.string.about_bu_part_3);
+        binding.partFour.setText(R.string.about_bu_part_4);
 
 
     }
@@ -50,4 +57,6 @@ public class MissionAndVision extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
 }

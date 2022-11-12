@@ -1,4 +1,4 @@
-package bu.edu.bd.android.HomeFragmentItems.Admission;
+package bu.edu.bd.android.HomeFragmentItems.admission;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +13,6 @@ import java.util.Objects;
 import bu.edu.bd.android.DashBoard.DashBoard;
 import bu.edu.bd.android.R;
 import bu.edu.bd.android.databinding.ActivityAdmissionBinding;
-import bu.edu.bd.android.databinding.ActivityMissionAndVisionBinding;
 
 public class Admission extends AppCompatActivity {
     ActivityAdmissionBinding binding;

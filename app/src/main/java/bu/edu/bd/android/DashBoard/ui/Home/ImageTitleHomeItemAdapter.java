@@ -12,13 +12,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
-import bu.edu.bd.android.HomeFragmentItems.AboutBU.AboutBUActivity;
-import bu.edu.bd.android.HomeFragmentItems.AcademicPolicies.AcademicPolicies;
-import bu.edu.bd.android.HomeFragmentItems.Admission.Admission;
-import bu.edu.bd.android.HomeFragmentItems.MissionAndVision.MissionAndVision;
-import bu.edu.bd.android.HomeFragmentItems.OfferedDegree.OfferedDegree;
-import bu.edu.bd.android.HomeFragmentItems.rulesAndRegulation.RulesAndRegulationActivity;
-import bu.edu.bd.android.MoreFragmentItems.DeveloperInformation.DeveloperInformation;
+import bu.edu.bd.android.HomeFragmentItems.about.AboutBUActivity;
+import bu.edu.bd.android.HomeFragmentItems.academicInformation.AcademicPolicies;
+import bu.edu.bd.android.HomeFragmentItems.admission.Admission;
+import bu.edu.bd.android.HomeFragmentItems.about.MissionAndVision;
+import bu.edu.bd.android.HomeFragmentItems.academicInformation.OfferedDegree;
+import bu.edu.bd.android.HomeFragmentItems.academicInformation.RulesAndRegulationActivity;
 import bu.edu.bd.android.R;
 
 public class ImageTitleHomeItemAdapter extends RecyclerView.Adapter<ImageTitleHomeItemAdapter.AdapterHolder>{

@@ -1,4 +1,4 @@
-package bu.edu.bd.android.HomeFragmentItems.rulesAndRegulation;
+package bu.edu.bd.android.HomeFragmentItems.academicInformation;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
