@@ -8,55 +8,56 @@
     tools:context=".MoreFragmentItems.DeveloperInformation.DeveloperInformation">
 
         <TextView
+            android:id="@+id/developerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Md Shakawat Hossain"
             android:textStyle="bold"
             android:textSize="30sp"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:textColor="@color/color_green"/>
 
         <TextView
+            android:id="@+id/developerTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mobile  Application Developer"
+            android:textSize="20sp"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:id="@+id/developerUniversity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:textSize="20sp"/>
 
         <TextView
+            android:id="@+id/developerBatch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Student Of Bangladesh University"
             android:textSize="20sp"/>
 
         <TextView
+            android:id="@+id/developerShift"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Batch: 55th"
             android:textSize="20sp"/>
 
         <TextView
+            android:id="@+id/developerGithub"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Department: CSE (Evening)"
-            android:textSize="20sp"/>
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Github:  github.com/sh4k4w4t"
             android:textSize="20sp"
             android:layout_marginTop="15dp"/>
 
         <TextView
+            android:id="@+id/developerlinkedin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Linkedin:  linkedin.com/in/sh4k4w4t"
             android:textSize="20sp"/>
 
         <TextView
+            android:id="@+id/developerEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email:  shakawat@mail.lv"
             android:textSize="20sp" />
 
 </LinearLayout>

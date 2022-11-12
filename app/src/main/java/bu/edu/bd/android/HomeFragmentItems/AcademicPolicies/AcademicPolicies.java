@@ -44,7 +44,20 @@ public class AcademicPolicies extends AppCompatActivity {
         binding.improvementExaminationTwo.setText(R.string.Improvement_Examination_two);
         binding.dropoutCourseDueToDisciplinaryActionRecourseExaminationsOne.setText(R.string.Dropout_Course_due_to_disciplinary_action_Recourse_Examinations_one);
         binding.dropoutCourseDueToDisciplinaryActionRecourseExaminationsTwo.setText(R.string.Dropout_Course_due_to_disciplinary_action_Recourse_Examinations_two);
-
+        binding.gradingOne.setText(R.string.grading_one);
+        binding.gradingTwo.setText(R.string.grading_two);
+        binding.repeatCourseOne.setText(R.string.repeatCourse);
+        binding.repeatCourseTwo.setText(R.string.repeatCourseTwo);
+        binding.academicStandOne.setText(R.string.academicStand);
+        binding.academicStand2Two.setText(R.string.academicStandTwo);
+        binding.onlineResult1.setText(R.string.onlineResult1);
+        binding.onlineResult2.setText(R.string.onlineResult2);
+        binding.transcript1.setText(R.string.transcript1);
+        binding.transcript22.setText(R.string.transcript2);
+        binding.provessional1.setText(R.string.provesional1);
+        binding.provessional2.setText(R.string.provesional2);
+        binding.appAgiPun1.setText(R.string.appAgiPun1);
+        binding.appAgiPun2.setText(R.string.appAgiPun2);
     }
 
 

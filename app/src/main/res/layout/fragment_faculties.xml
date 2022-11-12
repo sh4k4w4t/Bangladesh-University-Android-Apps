@@ -8,17 +8,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="7dp"
+        android:padding="5dp">
 
         <TextView
+            android:id="@+id/setDeptTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:text="Science, Engineering and Technology"
             android:padding="5dp"
             android:textColor="@color/white"
-            android:background="@color/color_code_main_2"/>
+            android:background="@drawable/gradiant_half_green_half_red_red_green"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,37 +28,37 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/cse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Computer Science and Engineering"
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"/>
             <TextView
+                android:id="@+id/math"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mathematics"
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"/>
             <TextView
+                android:id="@+id/pharmachy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pharmacy"
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"/>
             <TextView
+                android:id="@+id/eee"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Electrical and Electronics Engineering (EEE)"
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"/>
             <TextView
+                android:id="@+id/arch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Architecture"
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"/>
@@ -64,13 +66,13 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/aslDeptTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:text="Arts, Social Science and Law"
             android:textColor="@color/white"
-            android:background="@color/color_code_main_2"
+            android:background="@drawable/gradiant_half_green_half_red_green_red"
             android:padding="5dp"/>
 
         <LinearLayout
@@ -78,38 +80,38 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/english"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="English"
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"/>
 
             <TextView
+                android:id="@+id/sociology"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sociology"
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"/>
 
             <TextView
+                android:id="@+id/law"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Law"
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"/>
         </LinearLayout>
 
         <TextView
+            android:id="@+id/baeDeptTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:text="Business Administration and Economics"
             android:textColor="@color/white"
-            android:background="@color/color_code_main_2"
+            android:background="@drawable/gradiant_half_green_half_red_red_green"
             android:padding="5dp" />
 
         <LinearLayout
@@ -117,17 +119,17 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/businessAddministration"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Business Administration"
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"/>
 
             <TextView
+                android:id="@+id/economics"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Economics"
                 android:textSize="20sp"
                 android:gravity="center_horizontal"
                 android:layout_margin="10dp"/>

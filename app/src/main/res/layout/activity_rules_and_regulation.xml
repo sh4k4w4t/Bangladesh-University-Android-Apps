@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragmentItems.rulesAndRegulation.RulesAndRegulationActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/academicConsisit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/forTri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/forBi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/registraton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/color_code_main_1"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_code_main_3"/>
+
+            <TextView
+                android:id="@+id/regis2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/regis3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/general1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/color_code_main_1"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_code_main_3"/>
+
+            <TextView
+                android:id="@+id/general2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/readmission1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/color_code_main_1"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_code_main_3"/>
+
+            <TextView
+                android:id="@+id/readmission2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/internship1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/color_code_main_1"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_code_main_3"/>
+
+            <TextView
+                android:id="@+id/internship2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/oriantation1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/color_code_main_1"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_code_main_3"/>
+
+            <TextView
+                android:id="@+id/oriantation2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/studentIdentifiaction1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/color_code_main_1"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_code_main_3"/>
+
+            <TextView
+                android:id="@+id/studentIdentifiaction2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/degreeCom1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/color_code_main_1"
+                android:gravity="center_horizontal"
+                android:padding="3dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_code_main_3"/>
+
+            <TextView
+                android:id="@+id/degreeCom2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:justificationMode="inter_word"
+                tools:ignore="UnusedAttribute"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
