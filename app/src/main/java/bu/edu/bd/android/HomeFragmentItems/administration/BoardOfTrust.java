@@ -36,10 +36,19 @@ public class BoardOfTrust extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         arrayList= new ArrayList<>();
-        arrayList.add(new BoardOfTrustModel(R.drawable.message_from_founder,getResources().getString(R.string.app_name)));
-        arrayList.add(new BoardOfTrustModel(R.drawable.message_from_founder,getResources().getString(R.string.app_name)));
-        arrayList.add(new BoardOfTrustModel(R.drawable.message_from_founder,getResources().getString(R.string.app_name)));
-        arrayList.add(new BoardOfTrustModel(R.drawable.message_from_founder,getResources().getString(R.string.app_name)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.jamil_azher,getResources().getString(R.string.bot_jamil)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.ghulam_dastagir,getResources().getString(R.string.bot_Ghulam)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.t_p_biswas,getResources().getString(R.string.bot_tarapada)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.masih_ur_rahman_1,getResources().getString(R.string.bot_masih)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.mozahaer_ali,getResources().getString(R.string.bot_mozahar)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.wahiuddin_mahmood,getResources().getString(R.string.bot_wahiuddin)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.dr_shagufta_mahmood,getResources().getString(R.string.bot_shagufta)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.shahnila_azher,getResources().getString(R.string.bot_shahlina)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.shihab_azhar,getResources().getString(R.string.bot_ansari)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.mushfiqur_rahman,getResources().getString(R.string.bot_musfiqur)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.sadia_malik,getResources().getString(R.string.bot_sadia)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.iqbal_habib,getResources().getString(R.string.bot_iqbal)));
+        arrayList.add(new BoardOfTrustModel(R.drawable.sarmin_ahmed_mozumder,getResources().getString(R.string.bot_sharmin)));
 
         recyclerView= binding.recycleviewBroadOfTrust;
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

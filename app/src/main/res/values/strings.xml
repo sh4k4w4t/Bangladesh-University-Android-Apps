@@ -191,4 +191,20 @@
         \n\nEmail: shamimakhan27@gmail.com
         \n\nPhone: 01755559329</string>
 
+
+<!--    name of broad of trust-->
+    <string name="bot_jamil">Jamil Azher/n/nChairman, BoT, BU</string>
+    <string name="bot_Ghulam">M.A. Ghulam Dastagir\n\nSecretary, BoT, BU</string>
+    <string name="bot_tarapada">Tarapada Biswas</string>
+    <string name="bot_masih">Engr. Masih ur Rahman</string>
+    <string name="bot_mozahar">Quazi Mozaher Ali</string>
+    <string name="bot_wahiuddin">Dr. Wahiuddin Mahmood</string>
+    <string name="bot_shagufta">Dr. Shagufta Mahmood</string>
+    <string name="bot_shahlina">Shahnila Tazreen Azher</string>
+    <string name="bot_ansari">Shihab Ansari Azher</string>
+    <string name="bot_musfiqur">Engr. Mushfiqur Rahman</string>
+    <string name="bot_sadia">Barrister Sadia Malik</string>
+    <string name="bot_iqbal">Ar. Iqbal Habib</string>
+    <string name="bot_sharmin">Advocate Sarmin Ahmed Mazumder</string>
+
 </resources>
