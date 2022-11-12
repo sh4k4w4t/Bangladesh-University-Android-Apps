@@ -21,6 +21,7 @@ import bu.edu.bd.android.HomeFragmentItems.admission.Admission;
 import bu.edu.bd.android.HomeFragmentItems.about.MissionAndVision;
 import bu.edu.bd.android.HomeFragmentItems.academicInformation.OfferedDegree;
 import bu.edu.bd.android.HomeFragmentItems.academicInformation.RulesAndRegulationActivity;
+import bu.edu.bd.android.HomeFragmentItems.officeInformation.Controller;
 import bu.edu.bd.android.HomeFragmentItems.officeInformation.Registrar;
 import bu.edu.bd.android.R;
 
@@ -66,6 +67,8 @@ public class ImageTitleHomeItemAdapter extends RecyclerView.Adapter<ImageTitleHo
                 view.getContext().startActivity(new Intent(context, MessageFromFounder.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             }else if(view.getResources().getString(R.string.info_registrar_office).equals(arrayList.get(position).getTitle())){
                 view.getContext().startActivity(new Intent(context, Registrar.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            }else if(view.getResources().getString(R.string.info_controller_office).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, Controller.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             }else {
                 Toast.makeText(context, arrayList.get(position).getTitle() + " still Working", Toast.LENGTH_SHORT).show();
             }

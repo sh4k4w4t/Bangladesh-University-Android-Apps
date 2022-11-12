@@ -247,4 +247,13 @@
     <string name="rMoin">Md. Moin Uddin Niloy\nLab Assistant (EEE)\nEmail: niloykhan74@gmail.com\nPhone: 01303118552</string>
     <string name="rSabuj" tools:ignore="Typos">Md. Sabuj Rana\nLab Assistant (Pharmacy)\nEmail: md.sabujranadgc1@gmail.com\nPhone: 01785392642</string>
 
+<!--    controller-->
+    <string name="ramirul">Prof. Md. Amirul Alam Khan\nEmail: controller@bu.edu.bd</string>
+    <string name="rDidar">Didar Elahi\nEmail: deputycontroller@bu.edu.bd\nPhone: 01755511988</string>
+    <string name="rrajib" tools:ignore="Typos">Md. Rajib Hossain\nEmail: asst.controller1@bu.edu.bd\nPhone: 01755511975</string>
+    <string name="rnaeem">Md. Naeem Ahammed\nEmail: asst.controller2@bu.edu.bd\nPhone: 01755677927</string>
+    <string name="rMoniruzzam">Moniruzaman Biswas\nOffice Assistant\nEmail: sabujbiswas006@gmail.com\nPhone: 01716481419</string>
+    <string name="rliza">Liza Moni\nOffice Assistant\nEmail: lizamoni@yahoo.com\nPhone:  01740243896</string>
+    <string name="rsushanto">Shusanto Kumar Das\nOffice Assistant\nEmail: santosabuj@gmail.com\nPhone: 01739854019</string>
+    
 </resources>
