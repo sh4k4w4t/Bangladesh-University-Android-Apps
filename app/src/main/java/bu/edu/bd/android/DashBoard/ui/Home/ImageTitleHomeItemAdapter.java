@@ -14,6 +14,9 @@ import java.util.ArrayList;
 
 import bu.edu.bd.android.HomeFragmentItems.about.AboutBUActivity;
 import bu.edu.bd.android.HomeFragmentItems.academicInformation.AcademicPolicies;
+import bu.edu.bd.android.HomeFragmentItems.administration.BoardOfTrust;
+import bu.edu.bd.android.HomeFragmentItems.administration.MessageFromFounder;
+import bu.edu.bd.android.HomeFragmentItems.administration.VCOffice;
 import bu.edu.bd.android.HomeFragmentItems.admission.Admission;
 import bu.edu.bd.android.HomeFragmentItems.about.MissionAndVision;
 import bu.edu.bd.android.HomeFragmentItems.academicInformation.OfferedDegree;
@@ -54,6 +57,12 @@ public class ImageTitleHomeItemAdapter extends RecyclerView.Adapter<ImageTitleHo
                 view.getContext().startActivity(new Intent(context, Admission.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             }else if(view.getResources().getString(R.string.info_rules_regulation).equals(arrayList.get(position).getTitle())){
                 view.getContext().startActivity(new Intent(context, RulesAndRegulationActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            }else if(view.getResources().getString(R.string.info_board_of_trust).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, BoardOfTrust.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            }else if(view.getResources().getString(R.string.info_vc_office).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, VCOffice.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+            }else if(view.getResources().getString(R.string.info_message_from_founder).equals(arrayList.get(position).getTitle())){
+                view.getContext().startActivity(new Intent(context, MessageFromFounder.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
             }else {
                 Toast.makeText(context, arrayList.get(position).getTitle() + " still Working", Toast.LENGTH_SHORT).show();
             }
