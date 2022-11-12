@@ -91,7 +91,7 @@
             android:name=".HomeFragmentItems.about.MissionAndVision"
             android:exported="false" />
         <activity
-            android:name=".MoreFragmentItems.DeveloperInformation.DeveloperInformation"
+            android:name=".MoreFragmentItems.DeveloperInformation"
             android:exported="false" />
         <activity
             android:name=".HomeFragmentItems.about.AboutBUActivity"

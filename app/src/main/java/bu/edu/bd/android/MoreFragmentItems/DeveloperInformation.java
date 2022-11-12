@@ -1,4 +1,4 @@
-package bu.edu.bd.android.MoreFragmentItems.DeveloperInformation;
+package bu.edu.bd.android.MoreFragmentItems;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
