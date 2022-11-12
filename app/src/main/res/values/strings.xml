@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Bangladesh University</string>
     <string name="title_activity_dash_board">DashBoard</string>
     <string name="title_home">Home</string>
@@ -192,7 +192,7 @@
         \n\nPhone: 01755559329</string>
 
 
-<!--    name of broad of trust-->
+    <!--    name of broad of trust-->
     <string name="bot_jamil">Jamil Azher/n/nChairman, BoT, BU</string>
     <string name="bot_Ghulam">M.A. Ghulam Dastagir\n\nSecretary, BoT, BU</string>
     <string name="bot_tarapada">Tarapada Biswas</string>
@@ -206,5 +206,45 @@
     <string name="bot_sadia">Barrister Sadia Malik</string>
     <string name="bot_iqbal">Ar. Iqbal Habib</string>
     <string name="bot_sharmin">Advocate Sarmin Ahmed Mazumder</string>
+
+
+<!--    name of registrar-->
+    <string name="rBrig">Brig. Gen. Md. Mahbubul Haque (Retd)\nRegistrar|n\nEmail: registrar.bu@bu.edu.bd\nPhone: 02 8117951\nFax: +88 02 9141019</string>
+    <string name="rSiddiqur">Md. Siddiqur Rahman\nDeputy Registrar\n\nEmail: deputyregistrar.le@bu.edu.bd\nPhone: 01755559324,\n01771186003</string>
+    <string name="rNaureen">Naureen Ayesha\nDeputy Registrar\nEmail: deputyregistrar@bu.edu.bd\nPhone: 01755511980</string>
+    <string name="rMosiur" tools:ignore="Typos">Md. Moshiur Rahman\nSenior Assistant Registrar\nEmail: sr.asst.registrar1@bu.edu.bd\nPhone: 01755511976</string>
+    <string name="rMorshedul">Md. Morshedul Alam\nSenior Assistant Registrar\nEmail: sr.asst.registrar2@bu.edu.bd\nPhone: 01755556547</string>
+    <string name="rUrfa" tools:ignore="Typos">Urfa Zewar\nAssistant Registrar\nEmail: asst.registrar1@bu.edu.bd\nPhone: 01755511974</string>
+    <string name="rShafiquzzam">Mohammad Shafiquzzaman\nCoordinator, Office of the Chairman\nEmail: shafiq.orion@gmail.com\nPhone: 01755559322</string>
+    <string name="rTariqul">Md. Tariqul Islam\nProcurement Officer\nEmail: procurement@bu.edu.bd</string>
+    <string name="rMunim">S. M. Munim Rahman\nAssistant Engineer (Civil)\nEmail: asst.engr.civil@bu.edu.bd\nPhone: 01957545628</string>
+    <string name="rProvakor">Provakar Roy\nIT Executive\nEmail: it@bu.edu.bd\nPhone: 01755511983</string>
+    <string name="rNigram">Md Nigran Islam Mizan\nIT Executive (Web Develop)\nEmail: it@bu.edu.bd\nPhone: 01755511984</string>
+    <string name="rSaniyul">Md. Saniyal Haque Khan\nExecutive (Academic Affairs)\nEmail: jisan.saniyal@gmail.com\nPhone: 01717236398</string>
+    <string name="rRofiqul">Md. Rofikul Islam\nExecutive (PA to Registrar)\nEmail: rafique3657@gmail.com\nPhone: 01715636654</string>
+    <string name="rNurUddin">Nur Uddin\nJr. Asst. Engineer (Electrical)\nEmail: nuruddinrocky02@gmail.com\nPhone: 01310550265</string>
+    <string name="rnadira">Nadira Akter\nAssistant Course Coordinator\nEmail: naktercse@gmail.com\nPhone: 01755556548</string>
+    <string name="rhatem">Md. Hatem Ali\nAssistant: Reg. Office	Email: registrar@bu.edu.bd,\nhatembu@gmail.com\nPhone: 01755511978</string>
+    <string name="rJapor">Md. Jafor Ali\nOffice Assistant\nEmail: zaforiqbal291@gmail.com\nPhone: 01736232168</string>
+    <string name="rKhandakar">Khandakar Shahadat Hossain\nOffice Assistant\nEmail: registrar@bu.edu.bd,\nkh.shahadathossain@outlook.com\nPhone: 01728474953</string>
+    <string name="rFarzana">Farjana Ahmed\nDeputy Registrar\nEmail: dr.admission@bu.edu.bd\nPhone: 01755559325</string>
+    <string name="rAbdullah">Md. Abdullah Al Mamun\nAssistant Admission Officer\nEmail: admission@bu.edu.bd,\nmdabdullahalmamun709@gmail.com\nPhone: 01755559320</string>
+    <string name="rJannat">Jannat Bhuyan\nAssistant Admission Officer\nEmail: admission@bu.edu.bd,\nbhuiyanjannat@gmail.com\nPhone: 01755559301</string>
+    <string name="rTariqulIslam">Md. Tariqul Islam\nSenior Assistant Registrar (HR)	Email: hr@bu.edu.bd,\ntislam83@yahoo.com\nPhone: 01755559309</string>
+    <string name="rDebasis">Debasis Roy\nHR Executive\nEmail: hr@bu.edu.bd,\naarovroydev@gmail.com\nPhone: 01313034731</string>
+    <string name="rAbubakkar">Md. Abu Bakar Siddik\nOffice Assistant (HR)\nEmail: absiddik0110@gmail.com\nPhone: 01755677923</string>
+    <string name="rShohel">Md. Shohel Ahsan Nipu\nDeputy Registrar\nEmail: pr@bu.edu.bd\nPhone: 01755559310\nFax: +88 02 9141019</string>
+    <string name="rHedayat">Md. Hedayet Ali Biswas\nExecutive (Lab Admin)\nEmail: hedayetcse@gmail.com\nPhone: 01733620273</string>
+    <string name="rAlamgir">Md. Alamgir Hossain\nOffice Assistant (Dean, SET)\nEmail: alamgirhossain927@gmail.com\nPhone: 01952297880</string>
+    <string name="rShorab">Md. Sohrab Hossain\nOffice Assistant (BBA)\nEmail: hossainsohrab92@gmail.com\nPhone: 01681135680</string>
+    <string name="rKhan">Khan Mohammad Sheartaj\nOffice Assistant\nEmail: shafatkhan1010@gmail.com\nPhone: 01795075306</string>
+    <string name="rjahangir">Md. Jahangir Alam\nOffice Assistant (English &amp; Eco and Math)\nEmail: jahangir.bsc6@gmail.com\nPhone: 01558305123</string>
+    <string name="rAminul">Aminul Islam\nOffice Assistant (Law &amp; Sociology)\nEmail: rubelkhanbd6@gmail.com\nPhone: 01641311117</string>
+    <string name="rImran">Md. Imran Hasan\nLab Assistant (Pharmacy)\nEmail: imranhasan_2017@yahoo.com\nPhone: 0174689793</string>
+    <string name="rOhidul">Md. Ohidul Islam\nLab Assistant (Pharmacy)\nEmail: anikbu@gmail.com\nPhone:  01912943419</string>
+    <string name="rAbdul">Md. Abdul Alim\nLab Assistant (CSE)\nEmail: smalimsarkar820@gmail.com\nPhone: 01758616066</string>
+    <string name="rFazlul">Md. Fazlul Haque Siddique\nComputer Lab Assistant cum Library in-charge (Architecture)\nEmail: siddique0dkh@gmail.com\nPhone: 01782178879</string>
+    <string name="rMoin">Md. Moin Uddin Niloy\nLab Assistant (EEE)\nEmail: niloykhan74@gmail.com\nPhone: 01303118552</string>
+    <string name="rSabuj" tools:ignore="Typos">Md. Sabuj Rana\nLab Assistant (Pharmacy)\nEmail: md.sabujranadgc1@gmail.com\nPhone: 01785392642</string>
 
 </resources>
