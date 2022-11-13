@@ -13,7 +13,8 @@
         android:text="Bangladesh University"
         android:textStyle="bold"
         android:textSize="30sp"
-        android:gravity="center_horizontal" />
+        android:gravity="center_horizontal"
+        tools:ignore="HardcodedText" />
 
 
 </LinearLayout>

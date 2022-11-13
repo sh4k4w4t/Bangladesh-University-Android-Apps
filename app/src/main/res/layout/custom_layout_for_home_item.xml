@@ -26,5 +26,6 @@
         android:textAlignment="center"
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="167dp"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        tools:ignore="HardcodedText" />
 </LinearLayout>
