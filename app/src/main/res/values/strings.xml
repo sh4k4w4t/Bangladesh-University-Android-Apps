@@ -282,7 +282,7 @@
     <string name="cseAdvisor">Quazi Jamil Azher\n\nAdvisor\n\nDepartment of CSE</string>
     <string name="cseFromHead">Md. Sadiq Iqbal\n\nAssistant Professor &amp; Head\n\nDepartment of CSE</string>
 
-<!--    listOfCSEFacultymembers-->
+    <!--    listOfCSEFacultymembers-->
     <string name="fSadiq">Md. Sadiq Iqbal\nFaculty Id :200510001\nDesignation :Associate Professor &amp; Chairman</string>
     <string name="fAsraf">Dr. Md. Asraf Ali\nFaculty Id :200510038\nDesignation :Associate Professor</string>
     <string name="fYasir">Yeasir Fathah Rumi\nFaculty Id :200510003\nDesignation :Assistant Professor &amp; Department Coordinator</string>

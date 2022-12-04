@@ -8,9 +8,15 @@
     <color name="white">#FFFFFFFF</color>
 
 
-    <color name="color_code_main_1">#8C1515</color>
-    <color name="color_code_main_2">#C55F5D</color>
-    <color name="color_code_main_3">#E1C6C6</color>
+<!--    <color name="color_code_main_1">#8C1515</color>-->
+<!--    <color name="color_code_main_2">#C55F5D</color>-->
+<!--    <color name="color_code_main_3">#E1C6C6</color>-->
+<!--    <color name="color_code_main_4">#EDE4E4</color>-->
+<!--    <color name="color_green">#064206</color>-->
+
+    <color name="color_code_main_1">#073B44</color>
+    <color name="color_code_main_2">#3E7D88</color>
+    <color name="color_code_main_3">#5B8188</color>
     <color name="color_code_main_4">#EDE4E4</color>
     <color name="color_green">#064206</color>
 </resources>

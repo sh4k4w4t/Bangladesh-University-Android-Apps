@@ -16,140 +16,155 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".FacultiesFragmentItems.CSEAllFacultyMembersList"
+            android:name=".about.AboutMainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FacultiesFragmentItems.ArchActivity"
+            android:name=".academicInformation.AcademicInfoMainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FacultiesFragmentItems.EEEActivity"
+            android:name=".administration.AdministrationMainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FacultiesFragmentItems.PharmacyActivity"
+            android:name=".Faculties.FacultiesMainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FacultiesFragmentItems.MathActivity"
+            android:name=".officeInformation.OfficeMainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".FacultiesFragmentItems.CSEActivity"
+            android:name=".More.MoreMainActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".HomeFragmentItems.officeInformation.Tech"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".HomeFragmentItems.officeInformation.Library"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".HomeFragmentItems.officeInformation.Account"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".HomeFragmentItems.officeInformation.Controller"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".HomeFragmentItems.officeInformation.Registrar"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".HomeFragmentItems.administration.VCOffice"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".HomeFragmentItems.administration.BoardOfTrust"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".HomeFragmentItems.administration.MessageFromFounder"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".HomeFragmentItems.academicInformation.RulesAndRegulationActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".HomeFragmentItems.admission.Admission"
-            android:exported="false" />
-        <activity
-            android:name=".HomeFragmentItems.academicInformation.AcademicPolicies"
-            android:exported="false" />
-        <activity
-            android:name=".HomeFragmentItems.academicInformation.OfferedDegree"
-            android:exported="false" />
-        <activity
-            android:name=".HomeFragmentItems.about.MissionAndVision"
-            android:exported="false" />
-        <activity
-            android:name=".MoreFragmentItems.DeveloperInformation"
-            android:exported="false" />
-        <activity
-            android:name=".HomeFragmentItems.about.AboutBUActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DashBoard.DashBoard"
+            android:name=".Homepage.HomepageActivity"
             android:exported="true"
-            android:label="@string/title_activity_dash_board">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Faculties.CSEAllFacultyMembersList"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Faculties.CSEActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".officeInformation.Tech"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".officeInformation.Library"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".officeInformation.Account"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".officeInformation.Controller"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".officeInformation.Registrar"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".administration.VCOffice"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".administration.BoardOfTrust"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".administration.MessageFromFounder"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".academicInformation.RulesAndRegulationActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".admission.Admission"
+            android:exported="false" />
+        <activity
+            android:name=".academicInformation.AcademicPolicies"
+            android:exported="false" />
+        <activity
+            android:name=".academicInformation.OfferedDegree"
+            android:exported="false" />
+        <activity
+            android:name=".about.MissionAndVision"
+            android:exported="false" />
+        <activity
+            android:name=".More.DeveloperInformation"
+            android:exported="false" />
+        <activity
+            android:name=".about.AboutBUActivity"
             android:exported="false" />
     </application>
 
