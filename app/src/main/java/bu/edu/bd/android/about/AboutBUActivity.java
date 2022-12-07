@@ -33,8 +33,6 @@ public class AboutBUActivity extends AppCompatActivity {
         binding.partTwo.setText(R.string.about_bu_part_2);
         binding.partThree.setText(R.string.about_bu_part_3);
         binding.partFour.setText(R.string.about_bu_part_4);
-
-
     }
 
     @Override
