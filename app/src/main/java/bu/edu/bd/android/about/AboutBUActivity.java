@@ -28,7 +28,7 @@ public class AboutBUActivity extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        binding.imageView.setImageResource(R.drawable.loading_image_large);
+        binding.imageView.setImageResource(R.drawable.bu_home);
         binding.partOne.setText(R.string.about_bu_part_1);
         binding.partTwo.setText(R.string.about_bu_part_2);
         binding.partThree.setText(R.string.about_bu_part_3);

@@ -15,11 +15,12 @@
             android:id="@+id/setDeptTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:background="@color/color_code_main_3"
+            android:gravity="center_horizontal"
             android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/white"
-            android:background="@color/color_code_main_3"/>
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,37 +31,41 @@
                 android:id="@+id/cse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
-                android:layout_margin="10dp"/>
+                android:textSize="20sp" />
+
             <TextView
                 android:id="@+id/math"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
-                android:layout_margin="10dp"/>
+                android:textSize="20sp" />
+
             <TextView
                 android:id="@+id/pharmachy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
-                android:layout_margin="10dp"/>
+                android:textSize="20sp" />
+
             <TextView
                 android:id="@+id/eee"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
-                android:layout_margin="10dp"/>
+                android:textSize="20sp" />
+
             <TextView
                 android:id="@+id/arch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
-                android:layout_margin="10dp"/>
+                android:textSize="20sp" />
 
         </LinearLayout>
 
@@ -68,70 +73,74 @@
             android:id="@+id/aslDeptTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:background="@color/color_code_main_3"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/white"
-            android:background="@color/color_code_main_3"
-            android:padding="5dp"/>
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/english"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
-                android:layout_margin="10dp"/>
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/sociology"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
-                android:layout_margin="10dp"/>
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/law"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
-                android:layout_margin="10dp"/>
+                android:textSize="20sp" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/baeDeptTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:background="@color/color_code_main_3"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/white"
-            android:background="@color/color_code_main_3"
-            android:padding="5dp" />
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/businessAddministration"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
-                android:layout_margin="10dp"/>
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/economics"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
+                android:layout_margin="10dp"
                 android:gravity="center_horizontal"
-                android:layout_margin="10dp"/>
+                android:textSize="20sp" />
         </LinearLayout>
 
     </LinearLayout>

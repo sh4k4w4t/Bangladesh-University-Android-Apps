@@ -312,5 +312,13 @@
     <string name="fAnik">Anik Das\nFaculty Id :202010075\nDesignation :Lecturer</string>
     <string name="fAsib">Asib Hasan\nFaculty Id :202010076\nDesignation :Lecturer (Part-time)</string>
 
+    <!--    link-->
+    <string name="student_portal">https://busmsportal.azurewebsites.net/LoginPage.aspx</string>
+    <string name="lab_facility_url">https://bu.edu.bd/lab-facility/</string>
+    <string name="library_url">https://bu.edu.bd/library/</string>
+    <string name="research_url">https://bu.edu.bd/research/</string>
+    <string name="digital_education_url">https://bu.edu.bd/digital-education/</string>
+    <string name="co_curricular_url">https://bu.edu.bd/co-curricular/</string>
+
 
 </resources>
