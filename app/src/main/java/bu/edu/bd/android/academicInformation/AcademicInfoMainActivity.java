@@ -24,8 +24,6 @@ public class AcademicInfoMainActivity extends AppCompatActivity {
         this.setTitle("Academic Information");
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-
-
     }
 
     @Override

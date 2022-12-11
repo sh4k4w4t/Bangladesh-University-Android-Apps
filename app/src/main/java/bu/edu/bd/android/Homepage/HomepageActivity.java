@@ -1,9 +1,11 @@
 package bu.edu.bd.android.Homepage;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
@@ -57,5 +59,14 @@ public class HomepageActivity extends AppCompatActivity {
 
     public void moreClick(View view) {
         startActivity(new Intent(this, MoreMainActivity.class));
+    }
+
+    @Override
+    public void onBackPressed() {
+        this.finish();
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 }
