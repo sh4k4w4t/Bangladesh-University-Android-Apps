@@ -31,7 +31,6 @@ public class MissionAndVision extends AppCompatActivity {
         binding.vision.setText(R.string.vision);
         binding.mission.setText(R.string.mission);
 
-
     }
 
     @Override

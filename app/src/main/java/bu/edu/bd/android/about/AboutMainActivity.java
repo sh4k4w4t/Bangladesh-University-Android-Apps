@@ -23,8 +23,6 @@ public class AboutMainActivity extends AppCompatActivity {
         this.setTitle("About");
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-
-
     }
 
     @Override
@@ -44,10 +42,10 @@ public class AboutMainActivity extends AppCompatActivity {
     }
 
     public void missionAndVision(View view) {
-        startActivity(new Intent(this,MissionAndVision.class));
+        startActivity(new Intent(this, MissionAndVision.class));
     }
 
     public void aboutBU(View view) {
-        startActivity(new Intent(this,AboutBUActivity.class));
+        startActivity(new Intent(this, AboutBUActivity.class));
     }
 }
