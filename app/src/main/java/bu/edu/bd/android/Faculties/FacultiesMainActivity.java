@@ -53,6 +53,10 @@ public class FacultiesMainActivity extends AppCompatActivity {
         binding.eee.setOnClickListener(view -> startActivity(new Intent(this, EEEActivity.class)));
         binding.arch.setOnClickListener(view -> startActivity(new Intent(this, ArchActivity.class)));
 
+        binding.english.setOnClickListener(view -> startActivity(new Intent(this, EnglishActivity.class)));
+//        binding.sociology.setOnClickListener(view -> startActivity(new Intent(this, ArchActivity.class)));
+//        binding.law.setOnClickListener(view -> startActivity(new Intent(this, ArchActivity.class)));
+
     }
 
     @Override

@@ -80,6 +80,7 @@
                 android:src="@drawable/click" />
 
             <TextView
+                android:id="@+id/missionTextId"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="8"
@@ -116,6 +117,7 @@
                 android:src="@drawable/click" />
 
             <TextView
+                android:id="@+id/syllabusTextId"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="8"
