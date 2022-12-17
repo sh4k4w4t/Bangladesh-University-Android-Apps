@@ -54,7 +54,7 @@ public class FacultiesMainActivity extends AppCompatActivity {
         binding.arch.setOnClickListener(view -> startActivity(new Intent(this, ArchActivity.class)));
 
         binding.english.setOnClickListener(view -> startActivity(new Intent(this, EnglishActivity.class)));
-//        binding.sociology.setOnClickListener(view -> startActivity(new Intent(this, ArchActivity.class)));
+        binding.sociology.setOnClickListener(view -> startActivity(new Intent(this, SociologyActivity.class)));
 //        binding.law.setOnClickListener(view -> startActivity(new Intent(this, ArchActivity.class)));
 
     }
