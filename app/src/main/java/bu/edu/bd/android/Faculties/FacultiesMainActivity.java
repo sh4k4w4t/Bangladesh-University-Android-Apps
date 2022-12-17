@@ -24,7 +24,7 @@ public class FacultiesMainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        binding=ActivityFacultiesMainBinding.inflate(getLayoutInflater());
+        binding = ActivityFacultiesMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         this.setTitle("Faculties");
         Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
@@ -50,7 +50,7 @@ public class FacultiesMainActivity extends AppCompatActivity {
         binding.cse.setOnClickListener(view -> startActivity(new Intent(this, CSEActivity.class)));
         binding.math.setOnClickListener(view -> startActivity(new Intent(this, MathActivity.class)));
         binding.pharmachy.setOnClickListener(view -> startActivity(new Intent(this, PharmacyActivity.class)));
-        binding.eee.setOnClickListener(view -> Toast.makeText(this, "Under Construction..", Toast.LENGTH_SHORT).show());
+        binding.eee.setOnClickListener(view -> startActivity(new Intent(this, EEEActivity.class)));
         binding.arch.setOnClickListener(view -> Toast.makeText(this, "Under Construction..", Toast.LENGTH_SHORT).show());
 
     }
