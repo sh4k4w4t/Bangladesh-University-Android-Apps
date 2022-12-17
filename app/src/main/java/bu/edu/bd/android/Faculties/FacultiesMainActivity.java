@@ -49,7 +49,7 @@ public class FacultiesMainActivity extends AppCompatActivity {
 
         binding.cse.setOnClickListener(view -> startActivity(new Intent(this, CSEActivity.class)));
         binding.math.setOnClickListener(view -> startActivity(new Intent(this, MathActivity.class)));
-        binding.pharmachy.setOnClickListener(view -> Toast.makeText(this, "Under Construction..", Toast.LENGTH_SHORT).show());
+        binding.pharmachy.setOnClickListener(view -> startActivity(new Intent(this, PharmacyActivity.class)));
         binding.eee.setOnClickListener(view -> Toast.makeText(this, "Under Construction..", Toast.LENGTH_SHORT).show());
         binding.arch.setOnClickListener(view -> Toast.makeText(this, "Under Construction..", Toast.LENGTH_SHORT).show());
 
